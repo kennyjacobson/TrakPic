@@ -1,11 +1,11 @@
 import { Typography } from "@mui/material"
 import React from "react"
 
-const Nearby = () => {
+const History = () => {
     return (
-        <Typography>Nearby</Typography>
+        <Typography>History</Typography>
 
     )
 }
 
-export default Nearby
+export default History

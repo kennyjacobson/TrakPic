@@ -1,18 +1,19 @@
 import React, {useState} from "react"
 import { AppBar, BottomNavigation, BottomNavigationAction, Box, Button, IconButton, Paper, Toolbar, Typography } from "@mui/material"
-import RestoreIcon from '@mui/icons-material/Restore';
-import FavoriteIcon from '@mui/icons-material/Favorite';
+
 import MenuIcon from '@mui/icons-material/Menu';
-import LocationOnIcon from '@mui/icons-material/LocationOn';
+import LocalDiningIcon from '@mui/icons-material/LocalDining';
+import MonitorWeightIcon from '@mui/icons-material/MonitorWeight';
+import TimelineIcon from '@mui/icons-material/Timeline';
 import {
     BrowserRouter,
     Routes,
     Route,
     Link
   } from "react-router-dom";
-import Recents from "../pages/Recents";
-import Favorites from "../pages/Favorites";
-import Nearby from "../pages/Nearby";
+import Food from "../pages/Food";
+import Weight from "../pages/Weight";
+import History from "../pages/History";
 
 
 const Layout = () => {
@@ -47,10 +48,10 @@ const Layout = () => {
         <Box sx={{ml:1, mr:1, border:0}}   >
                 
                 <Routes>
-                    <Route exact path="/" element={<Recents/>} />
-                    <Route exact path="recents" element={<Recents/>} />
-                    <Route exact path="favorites" element={<Favorites/>} />
-                    <Route exact path="nearby" element={<Nearby/>} />
+                    <Route exact path="/" element={<Food/>} />
+                    <Route exact path="food" element={<Food/>} />
+                    <Route exact path="weight" element={<Weight/>} />
+                    <Route exact path="history" element={<History/>} />
                 </Routes>
 
             
@@ -71,9 +72,9 @@ const Layout = () => {
                         console.log(newValue)
                     }}
                 >
-                    <BottomNavigationAction label="Recents" icon={<RestoreIcon />} component={Link} to="/recents" />
-                    <BottomNavigationAction label="Favorites" icon={<FavoriteIcon />} component={Link} to="/favorites"  />
-                    <BottomNavigationAction label="Nearby" icon={<LocationOnIcon />} component={Link} to="/nearby" />
+                    <BottomNavigationAction label="Food" icon={<LocalDiningIcon />} component={Link} to="/food" />
+                    <BottomNavigationAction label="Weight" icon={<MonitorWeightIcon />} component={Link} to="/weight"  />
+                    <BottomNavigationAction label="History" icon={<TimelineIcon />} component={Link} to="/history" />
 
                 </BottomNavigation>
             </Paper>
