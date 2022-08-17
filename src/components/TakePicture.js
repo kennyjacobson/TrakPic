@@ -1,6 +1,6 @@
 import React, {useState} from "react"
-import { Box, IconButton, Typography } from "@mui/material"
-import {gql, useQuery, useMutation} from '@apollo/client'
+import { Box, IconButton } from "@mui/material"
+import {gql,  useMutation} from '@apollo/client'
 
 import CheckCircleIcon from '@mui/icons-material/CheckCircle'
 import AddAPhotoIcon from '@mui/icons-material/AddAPhoto'
@@ -41,14 +41,18 @@ mutation PublishItem($id: ID ) {
 
 const TakePicture = ({pictureType}) => {
 
-    const [calories, setCalories] = useState(0)
-    const [sodium, setSodium] = useState(0)
-    const [weight, setWeight] = useState(0.0)
+    // const [calories, setCalories] = useState(0)
+    // const [sodium, setSodium] = useState(0)
+    // const [weight, setWeight] = useState(0.0)
     const [imageData, setImageData] = useState()
 
-    const [publishPhotoFunction, { data: assetData, loading: assetLoading, error:assetError }] = useMutation(PUBLISH_ASSET)
-    const [createItemFunction, { data: itemData, loading: itemLoading, error:itemError }] = useMutation(CREATE_ITEM)
-    const [publishItemFunction, { data: itemPubData, loading: itemPubLoading, error:itemPubError }] = useMutation(PUBLISH_ITEM)
+    // const [publishPhotoFunction, { data: assetData, loading: assetLoading, error:assetError }] = useMutation(PUBLISH_ASSET)
+    // const [createItemFunction, { data: itemData, loading: itemLoading, error:itemError }] = useMutation(CREATE_ITEM)
+    // const [publishItemFunction, { data: itemPubData, loading: itemPubLoading, error:itemPubError }] = useMutation(PUBLISH_ITEM)
+
+    const [publishPhotoFunction] = useMutation(PUBLISH_ASSET)
+    const [createItemFunction] = useMutation(CREATE_ITEM)
+    const [publishItemFunction] = useMutation(PUBLISH_ITEM)
 
     const inputStyle = {
         display: 'none'
