@@ -4,7 +4,7 @@ import React from "react"
 const Weight = () => {
     return (
         <>
-            <Typography>Weight</Typography>
+            <Typography>Banana</Typography>
             <Typography>Weight</Typography>
             <Typography>Weight</Typography>
             <Typography>Weight</Typography>
