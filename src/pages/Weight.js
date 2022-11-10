@@ -7,7 +7,7 @@ const Weight = () => {
             <Typography>Weight</Typography>
             <Typography>Weight</Typography>
             <Typography>Weight</Typography>
-            <Typography>Weight</Typography>
+            <Typography>Zenitsu</Typography>
             <Typography>Weight</Typography>
             <Typography>Weight</Typography>
         </>
