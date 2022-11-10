@@ -5,11 +5,11 @@ const Weight = () => {
     return (
         <>
             <Typography>Weight</Typography>
-            <Typography>Weight</Typography>
-            <Typography>Weight</Typography>
-            <Typography>Weight</Typography>
-            <Typography>Weight</Typography>
-            <Typography>Weight</Typography>
+            <Typography>frupiloop</Typography>
+            <Typography>dinglemind</Typography>
+            <Typography>jorp</Typography>
+            <Typography>madmingle</Typography>
+            <Typography>gorp </Typography>
         </>
        
 
