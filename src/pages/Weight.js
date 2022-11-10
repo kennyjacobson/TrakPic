@@ -5,7 +5,7 @@ const Weight = () => {
     return (
         <>
             <Typography>Weight</Typography>
-            <Typography>Weight</Typography>
+            <Typography>Orange</Typography>
             <Typography>Weight</Typography>
             <Typography>Weight</Typography>
             <Typography>Weight</Typography>
