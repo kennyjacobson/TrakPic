@@ -6,7 +6,7 @@ const Weight = () => {
         <>
             <Typography>Weight</Typography>
             <Typography>Orange</Typography>
-            <Typography>Weight</Typography>
+            <Typography>Cocomelon</Typography>
             <Typography>Weight</Typography>
             <Typography>Weight</Typography>
             <Typography>Weight</Typography>
