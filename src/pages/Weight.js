@@ -4,12 +4,12 @@ import React from "react"
 const Weight = () => {
     return (
         <>
-            <Typography>Weight</Typography>
-            <Typography>Weight</Typography>
-            <Typography>Weight</Typography>
-            <Typography>Weight</Typography>
-            <Typography>Weight</Typography>
-            <Typography>Weight</Typography>
+            <Typography>Strawberry</Typography>
+            <Typography>Banana</Typography>
+            <Typography>Kiwi</Typography>
+            <Typography>Blueberry</Typography>
+            <Typography>Apple</Typography>
+            <Typography>Pear</Typography>
         </>
        
 
